@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Personal Information</h3>
+    <p id="firstName">FirstName</p>
+    <p id="lastName">LastName</p>
+    <p id="gender">Gender</p>
+    <p id="address">Address</p>
+    <p id="email">Email</p>
+    <p id="password">Password</p>
+</body>
+<script>
+    let firstName=localStorage.getItem('first-name');
+    let lastName=localStorage.getItem('last-name');
+    let gender=localStorage.getItem('gender');
+    let address=localStorage.getItem('address');
+    let email=localStorage.getItem('email');
+    let password=localStorage.getItem('password');
+
+
+    document.getElementById('firstName').textContent='FirstName:  '+ firstName;
+    document.getElementById('lastName').textContent='LastName:  '+ lastName;
+    document.getElementById('gender').textContent='Gender:  '+gender;
+    document.getElementById('address').textContent='Address:  '+ address;
+    document.getElementById('email').textContent='Email:  '+ email;
+    document.getElementById('password').textContent='Password:  '+ password;
+</script>
+</html>

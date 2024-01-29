@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    /* background-color: #2c3e50; */
+    background-color: wheat;
+}
+.menu a{
+    font-family: Battambang;
+    font-size:15px;
+    text-decoration: none;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    color: white;
+}
+.menu .home{
+    width:100px;
+    height: 40px;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    background-color: wheat;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /* margin: auto; */
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    /* background-color: palevioletred; */
+}
+.navbar{
+    width: 1080px;
+    height: 100%;
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.picture-shop{
+    width: 100%;
+    height: 100%;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu{
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(58, 55, 55);
+    /* background-color: rgb(255, 0, 230); */
+    font-family:Battambang;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index:1;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}

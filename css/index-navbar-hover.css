@@ -1,0 +1,59 @@
+.menu .home:hover~.animation{
+    width: 100px;
+    left:0px;
+}
+.menu .new-book{
+    width:139px;
+    height:40px;
+}
+.menu .new-book:hover~.animation{
+    width: 139px;
+    left:100px;
+}
+.menu .discount{
+    width:139px;
+    height:40px;
+}
+.menu .discount:hover~.animation{
+    width: 139px;
+    left:239px;
+}
+.menu .about{
+    width:110px;
+    height: 40px;
+}
+.menu .about:hover~.animation{
+    width:110px;
+    left: 378px;
+}
+.menu .contact{
+    width:129px;
+    height: 40px;
+}
+.menu .contact:hover~.animation{
+    width: 129px;
+    left:488px;
+}
+.menu .register{
+    width:139px;
+    height:40px;
+
+}
+.menu .register:hover~.animation{
+    width: 139px;
+    left:617px;
+}
+.animation{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color:rgb(167, 119, 55);
+    top:0px;
+    left:0px;
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* box-shadow: -4px 3px 0px 0px  rgb(58, 55, 55); */
+    transition: left 0.5s;
+    
+}

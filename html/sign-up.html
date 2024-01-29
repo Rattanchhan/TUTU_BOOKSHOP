@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/css/navbar-style.css">
+    <link rel="stylesheet" href="/css/sign-up-navbar-hover.css">
+    <link rel="stylesheet" href="/css/sign-up.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <div class="picture-shop">
+                    <img class="pic" src="/image/Asset.png" alt="">
+                </div>
+            </div>
+            <div class="menu">
+                <a class="home" href="/html/index.html"><i class="fa-solid fa-house"></i> ទំព័រដើម</a>
+                <a class="new-book" href="#"><i class="fa-solid fa-book-open"></i> សៀវភៅថ្មីៗ</a>
+                <a class="discount" href="#"><i class="fa-solid fa-tags"></i> បញ្ចុះតម្លៃ</a>
+                <a class="about" href="/html/about-page.html"><i class="fa-solid fa-user"></i> អំពីខ្ញុំ</a>
+                <a class="contact" href="/html/contact-page.html"><i class="fa-solid fa-address-card"></i> ទំនាក់ទំនង</a>
+                <a class="register" href="/html/sign-in.html"><i class="fa-solid fa-pen-to-square"></i> ចុះឈ្មោះ</a>
+                <div class="animation start-animation"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="_main">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="main-absolute">
+                <div class="left">
+                    <div>
+                        <h3><span>សូមស្វាគមន៍<hr></span>
+                        </h3>
+                        <p>សូមធ្វើការចុះឈ្មោះដើម្បីក្លាយជាសមាជិក
+                            អ្នកនឹងទទួលបានអត្ថប្រយោជន៍ជាច្រើនរាល់ការជាវពីហាងរបស់យើងខ្ញុំ
+                        </p>
+                        <button id="sign_in" class="sign-in" type="submit">Sign In</button>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+                <div class="right">
+                    <div class="_main">
+                        <div class="top">
+                            <div>
+                                <h3>Create Your Account</h3>
+                                <p>Please inter your personal detail below</p>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="main-input">
+                                <label>Enter your name</label>
+                                <div class="input">
+                                    <div>
+                                        <input class="first-name" type="text" id="first-name" placeholder="First name">
+                                    </div>
+                                    <div>
+                                        <input class="last-name" type="text" id="last-name" placeholder="Last name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-input">
+                                <label>Enter your Email &#38; Phone</label>
+                                <div class="input">
+                                    <div>
+                                        <input class="email" type="text"  id="email" placeholder="Email">
+                                    </div>
+                                    <div>
+                                        <input class="phone" type="text"  id="phone" placeholder="Phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-input">
+                                <label>Enter your Address</label>
+                                <div class="input">
+                                    <div>
+                                        <input class="address" type="text"  id="address" placeholder="Address">
+                                    </div>
+                                    <div>
+                                        <input class="address2" type="text" id="address2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-input">
+                                <label>Enter your Password</label>
+                                <div class="input">
+                                    <div>
+                                        <input class="password" type="password"  id="password" placeholder="Password">
+                                    </div>
+                                    <div>
+                                        <input class="confirm_password" type="password"  id="cofirm_password" placeholder="Confirm password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkBox">
+                                <p>Select Your Gender</p>
+                                <ul>
+                                    <li >Male</li>
+                                    <li >Female</li>
+                                    <button onclick="change1()"  id="Male" class="male-check-box"></button>
+                                    <button onclick="change()" id="Female" class="female-check-box"></button>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="sign-up-button" id="sign" >
+                                <button id="sign-up-button" type="submit">Sign Up</button>
+                            </div>
+                            <div class="sign-in">
+                                <p>Already have a account? <a href="/html/sign-in.html">Sign-in</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/javaScript/sign-up.js"></script>
+</body>
+</html>
