@@ -6,38 +6,51 @@
 }
 .container{
     width:100%;
-    height: 800px;
     margin: auto;
     display: flex;
     align-items: center;
 }
-._main{
+.container-main{
     width: 100%;
-    height: 90%;
 }
-.top{
-    width: 90%;
-    height: 45%;
+.container-main-top{
+    width: 100%;
+    height: 250px;
     margin:auto;
     display: flex;
-    justify-content: space-between;
 }
-.left{
+.container-main-child-left{
     width: 30%;
-    height: 100%;
 }
-.right{
-    width:70%;
-    height: 100%;
-    border-radius: 20px;
-    overflow: hidden;
+.container-main-child-right{
+    width: 70%;
+}
+.container-main-bottom{
+    width: 100%;
+    height: 920px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.297)
+}
+.container-main-bottom-top{
+    width:100%;
+    height:432px;
+}
+.container-main-bottom-bottom{
+    width:100%;
+    height:432px;
+}
+.promotion{
+    margin:30px 0px 0px 40px;
 }
 .slide .child,.child{
     width: 100%;
     height: 75%;
     display: block;
 }
-.child{
+.container-main-child{
+    width: 60%;
+    height: 100%;
+    margin:auto;
     display: flex;
 }
 .slide .child .image{
@@ -56,7 +69,7 @@
     width: 100%;
     height: 100%;
     object-fit: fill;
-    top: -10px;
+    /* top: -10px; */
 }
 .slide .child .title{
     width:68%;
@@ -73,56 +86,38 @@
     height: 100%;
 }
 h1{
-    width: 60%;
-}
-.middle{
     width: 100%;
-    height: 60%;
-    background-color: rgba(255, 255, 255, 0.297);
 }
-.bottom{
-    width: 100%;
-    height: 850px;
-    position: relative;
-}
-.bottom-container{
-    width: 70%;
-    height: 100%;
-    margin:auto;
-}
-.middle .top{
+.sub-top{
     width: 100%;
     height: 15%;
     display: flex;
     align-items: center;
     margin-bottom: 2%;
 }
-.middle .bottom{
+.sub-bottom{
     width: 85%;
     height: 82%;
     margin:auto;
     position: relative;
 }
-.middle .bottom .slide-show{
+.sub-bottom .slide-show{
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.top-title,.sub-container1-title{
+.sub-top-title{
     font-weight: bold;
     font-size: 20px;
-    width: 10%;
+    width: 50%;
     margin: auto;
     text-align: center;
     padding: 10px 0px;
     position: relative;
 }
-.sub-container1-title{
-    width:14%;
-}
-.top-title hr,.sub-container1-title hr{
+.sub-top-title hr{
     position: absolute;
-    width: 50%;
+    width: 20%;
     bottom: 0px;
     left: 50%;
     transform: translate(-50%);
@@ -184,57 +179,18 @@ input[name="check"]{
 #check5:checked ~ ._hover{
     margin-left: -80%;
 }
-
-.sub-container1{
-    width: 100%;
-    height: 12%;
-    padding-top: 20px;
+#check6:checked ~ .slide-hover{
+    margin-left: 0;
 }
-.sub-container2{
-    width: 100%;
-    height: 88%;
-    display: flex;
-    justify-content: space-between;
+#check7:checked ~ .slide-hover{
+    margin-left: -20%;
 }
-.sub-container2 ._left,.sub-container2 ._right{
-    width: 45%;
-    height: 80%;
+#check8:checked ~ .slide-hover{
+    margin-left: -40%;
 }
-.left-child,.right-child{
-    width: 100%;
-    height: 33%;
-    display: flex;
+#check9:checked ~ .slide-hover{
+    margin-left: -60%;
 }
-.left-child-image,.right-child-image{
-    width: 40%;
-    height: 100%;
-}
-.left-child-title,.right-child-title{
-    width: 60%;
-    height: 100%;
-}
-.sub-left-child-title{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-}
-.left-child-image .categories-image,.right-child-image .categories-image{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    box-sizing: border-box;
-    padding: 20px;
-}
-
-.sub-left-child-title p{
-    font-weight: 500;
-    font-size:16px;
-}
-.sub-left-child-title .span{
-    font-weight: normal;
-    font-size:12px;
-}
-.sub-left-child-title a{
-    font-size:12px;
-    color:blue;
+#check10:checked ~ .slide-hover{
+    margin-left: -80%;
 }
