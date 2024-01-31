@@ -16,7 +16,7 @@
         <div class="navbar">
             <div class="logo">
                 <div class="picture-shop">
-                    <img class="pic" src="/image/Asset.png" alt="">
+                    <img class="pic" src="/image/logo/Asset.png" alt="">
                 </div>
             </div>
             <div class="menu">
@@ -62,15 +62,15 @@
                         <p class="description">
                             <span>ខ្ញុំជានិស្សិតឆ្នាំទី៣ ផ្នែកព័ត័មានវិទ្យានៃសាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ។ ខ្ញុំបានសិក្សាបន្ថែមទៅលើវគ្គ</span> HTML5 &#38 CSS/CSS3 <span>នៅ</span>​ ANT Training Center
                         </p>
-                        <button>CONTACT ME</button>
+                        <button id="contact">CONTACT ME</button>
                     </div>
                     
                 </div>
                 <div class="right">
                     <div class="profile">
                         <h2>HELLO, I'M SOKUNTHEA</h2>
-                        <p>I an a versatile graphic designer who can approach marketing 
-                            projects form conceot to implementation.
+                        <p>I am a web design student who can approach
+                            projects form concept to implementation.
                         </p>
                         <div class="social-medial-profile">
                             <a href="https://www.facebook.com/profile.php?id=100037817086082&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
@@ -82,12 +82,19 @@
                    
                     <div class="main-absolute">
                         <div class="circle">
-                               <img src="/image/c1.jpg" alt=""> 
+                               <img src="/image/profile-picture/tutu.JPG" alt=""> 
                         </div>
                     </div>
                 </div>
             </div> 
         </div>
     </div>
+    <script>
+        let contact_button = document.getElementById('contact');
+        contact_button.addEventListener('click',(e)=>{
+            e.preventDefault;
+            window.location.href="contact-page.html";
+        })
+    </script>
 </body>
 </html>

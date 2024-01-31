@@ -16,40 +16,38 @@
     font-weight: bold;
     color: rgb(46, 45, 45);
     font-family: Battambang;
-   
 }
 h6{
     font-size: 18px;
     font-family: Poppins;
 }
 .slay{
-    width: 73%;
-    height: 440px;
-    /* background-color: antiquewhite; */
+    width: 95%;
+    height: 340px;
     margin: auto;
-    
 }
 .swiper{
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
 }
 .card1{
     width: 80%;
     height: 460px;
     margin: auto;
 }
+
 h1{
+    font-family: Battambang;
     color: rgb(46, 45, 45);
     font-size: 35px;
     margin-top: 35px;
 }
-/* hr{
-    margin-top: 15px;
-} */
+hr{
+    margin-bottom: 35px;
+}
 .main-card1{
     width: 100%;
-    height: 300px;
+    height: 350px;
     /* background-color: bisque; */
     margin-top: 50px;
     display: flex;
@@ -59,23 +57,18 @@ h1{
 .card1-box1,
 .card1-box2,
 .card1-box3{
-    width: 31.5%;
+    width: 26%;
     height: 100%;
-    /* background-color: red; */
     border-radius: 10px;
 }
 .card1-img{
     width: 100%;
     height: 100%;
-    object-fit: fill;
     border-radius: 10px;
     transition: 0.3s;
-    /* transform: scale(1.05); */
     box-shadow: 0 0 10px 5px white;
-    
 }
 .card1-img:hover{
-    
     transform: scale(1.05);
     box-shadow: 0 0 10px 5px  rgb(46, 45, 45);
 }
@@ -85,14 +78,15 @@ h1{
     margin: auto;
     /* background-color: aqua; */
 }
-.main-card2{
+.main-card2,.main-card3{
     width: 100%;
-    height:300px;
+    height:320px;
     /* background-color: antiquewhite; */
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 .card2-box{
     width: 18%;
@@ -113,15 +107,17 @@ h1{
     height: 100%;
 }
 h3 {
+    width: 90%;
     margin-left: 10px;
     color: rgb(58, 55, 55) ;
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 10px;
 }
 p{
+    font-family: Battambang;
     margin-left: 12px;
-    color: rgb(58, 55, 55) ;
-    font-size: 13px;
+    color: rgb(215, 31, 31) ;
+    font-size: 14px;
 }
 .picture:hover{
     box-shadow: 0 0 10px 5px purple;
@@ -129,15 +125,8 @@ p{
 .card2-pic:hover picture{
     transform: scale(1.05);
 }
-.main-card3{
-    width: 100%;
-    height:300px;
-    /* background-color: antiquewhite; */
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+.main-card2{
+    margin-top: 0px;
 }
 .name{
     width: 100%;
