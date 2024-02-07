@@ -133,6 +133,9 @@ span{
     margin: auto;
     font-size: 14px;
 }
+.title div p{
+    margin-top:8px;
+}
 input[name="check"]{
     visibility: hidden;
     position: absolute;
