@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Battambang&display=swap');
 .book-container{
-    width:482px;
+    width:576px;
     margin: auto;
     margin-top: 30px;
 }
 .container-child1{
-    width: 90%;
+    width: 100%;
     height: 360px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 h1{
+    font-family: Poppins-Bold;
     font-size: 28px;
 }
 .public-shop{
-    font-weight: 400;
+    font-weight: Poppins;
 }
 .container-child1 .sub-child1{
-    width: 45%;
+    width: 32%;
     height: 100%;
 }
 .container-child1 .sub-child2{
-    width: 50%;
+    width: 68%;
     height: 100%;
 }
 .container-child1 .sub-child2 p{
@@ -31,34 +30,37 @@ h1{
     color:rgb(96,96,96);
 }
 .author{
-    font-weight: bold;
+    font-family: Poppins-Bold;
     margin: 10px 0px;
 }
-.container-child2{
+.sub-child2-top,.sub-child2-bottom{
     width: 90%;
+    margin:auto;
+}
+.container-child2{
+    width: 60%;
     height: 40px;
-    margin: auto;
     display: flex;
     margin-bottom: 25px;
 }
 .container-child3{
-    width: 90%;
+    width: 100%;
     height: 60px;
-    margin:auto;
     display: flex;
+    box-sizing: border-box;
+    padding-top:10px;
 }
 .container-child4{
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 8px;
 }
 .button1 button,.button2 button{
     width: 120px;
-    height: 48px;
+    height: 40px;
     border-radius:15px;
     border:1.5px solid rgb(19, 217, 227);
-    font-weight: bold;
-    font-size: 12px;
+    font-family:Poppins-Bold;
+    font-size: 11px;
 }
 .button2 button {
     background-color: rgb(19, 217, 227);
@@ -92,6 +94,7 @@ h1{
     text-align:start;
 }
 h4{
+    font-family: Poppins-Bold;
     text-align: center;
 }
 .fa-globe{
@@ -115,4 +118,11 @@ h4{
     margin-top: 20px;
     margin-bottom: 0px;
     text-align: center;
+}
+
+.container-child4 p{
+    font-size: 11px;
+    font-family:Poppins-Medium;
+    margin-top:6px;
+    color:rgb(96,96,96);
 }

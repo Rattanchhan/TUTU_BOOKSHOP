@@ -10,6 +10,13 @@
     width: 139px;
     left:100px;
 }
+.menu .service:hover~.drop-down{
+    display: block;
+}
+.menu .new-book:hover .fa-caret-down{
+    
+    transform: rotate(0deg);
+}
 .menu .discount{
     width:139px;
     height:40px;
@@ -37,7 +44,6 @@
 .menu .register{
     width:139px;
     height:40px;
-
 }
 .menu .register:hover~.animation{
     width: 139px;
@@ -56,4 +62,9 @@
     /* box-shadow: -4px 3px 0px 0px  rgb(58, 55, 55); */
     transition: left 0.5s;
     
+}
+.fa-caret-down{
+    margin-left: 5px;
+    transform: rotate(180deg);
+    transition: 0.5s;
 }

@@ -6,7 +6,6 @@
 .square3{
     width: 100%;
     height: 100%;
-    /* background-color: aqua; */
 }
 .square{
     width: 100%;
@@ -22,13 +21,14 @@ h6{
     font-family: Poppins;
 }
 .slay{
-    width: 95%;
-    height: 340px;
+    width: 80%;
+    height: 420px;
     margin: auto;
 }
 .swiper{
     width: 100%;
     height: 100%;
+    object-fit: fill;
 }
 .card1{
     width: 80%;
@@ -48,7 +48,6 @@ hr{
 .main-card1{
     width: 100%;
     height: 350px;
-    /* background-color: bisque; */
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -66,22 +65,19 @@ hr{
     height: 100%;
     border-radius: 10px;
     transition: 0.3s;
-    box-shadow: 0 0 10px 5px white;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 }
 .card1-img:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 10px 5px  rgb(46, 45, 45);
 }
 .card2{
     width: 80%;
     height: auto;
     margin: auto;
-    /* background-color: aqua; */
 }
 .main-card2,.main-card3{
     width: 100%;
     height:320px;
-    /* background-color: antiquewhite; */
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -91,20 +87,26 @@ hr{
 .card2-box{
     width: 18%;
     height: 100%;
-    /* background-color: blueviolet; */
     border-radius: 5px;
-    box-shadow: 0 0 10px 5px white;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+    background-color: rgba(245,222,180,255);
+    overflow: hidden;
 }
 .card2-pic{
     width: 100%;
     height: 240px;
-    /* background-color: rgb(215, 250, 228); */
+    overflow: hidden;
+}
+.card2-pic img{
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 15px;
     transition: 0.3s;
 }
-.picture{
-    border-radius: 5px 5px 0px 0px;
-    width: 100%;
-    height: 100%;
+.picture:hover{
+    transform: scale(1.05);
 }
 h3 {
     width: 90%;
@@ -114,13 +116,10 @@ h3 {
     margin-top: 10px;
 }
 p{
-    font-family: Battambang;
+    font-family:Battambang;
     margin-left: 12px;
     color: rgb(215, 31, 31) ;
     font-size: 14px;
-}
-.picture:hover{
-    box-shadow: 0 0 10px 5px purple;
 }
 .card2-pic:hover picture{
     transform: scale(1.05);
