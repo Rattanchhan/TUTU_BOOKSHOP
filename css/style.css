@@ -66,6 +66,7 @@ hr{
     border-radius: 10px;
     transition: 0.3s;
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
 }
 .card1-img:hover{
     transform: scale(1.05);
@@ -103,7 +104,7 @@ hr{
     box-sizing: border-box;
     padding: 10px;
     border-radius: 15px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .picture:hover{
     transform: scale(1.05);

@@ -1,0 +1,189 @@
+.div-container{
+    width: 100%;
+    position: relative;
+}
+.contain-main{
+    width: 80%;
+    height: 950px;
+    margin:auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.3);
+}
+.main-top{
+    width:60%;
+    height:28%;
+    margin:auto;
+}
+.main-top h1{
+    height: 30%;
+    font-family: Roboto;
+    text-align: center;
+    padding-top:25px;
+}
+.main-top .payment{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.payment-image{
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    border:5px solid darkblue;
+    overflow: hidden;
+}
+.payment-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.type-credit{
+    height: 20%;
+    font-family: Roboto;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    color:rgb(0,0,0);
+    padding-top:8px;
+    
+}
+.child-payment-container{
+    width: 40%;
+    height: 72%;
+    margin: auto;
+}
+.main-bottom{
+    width:100%;
+    height: 70%;
+    display: flex;
+}
+.main-bottom-left{
+    width: 80%;
+    height: 100%;
+}
+.main-bottom-right{
+    width: 18%;
+    height: 100%;
+    margin-left: 2%;
+}
+.div-top{
+    width: 100%;
+    height: 70%;
+}
+.div-bottom h3,.div-bottom p,.div-bottom{
+    font-family: Roboto;
+    margin-left: 0px;
+}
+.div-bottom h3{
+    font-size: 24px;
+}
+.div-bottom p{
+    font-size: 20px;
+    color:rgb(176, 175, 175);
+}
+.div-bottom button{
+    margin-top: 15px;
+    font-family: Roboto;
+    background-color: rgba(5,58,93,255);
+    color:white;
+    border:none;
+    width: 160px;
+    height: 62px;
+    border-radius:5px;
+    font-size:28px;
+    cursor: pointer;
+}
+.main-bottom-left-top{
+    width: 95%;
+    height: 45%;
+    margin-left: 5%;
+}
+.main-bottom-left-bottom{
+    width: 95%;
+    height: 45%;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.cardholder-name,
+.card-number,
+.authentication,
+.sub-address,
+.address,
+.bill-address{
+    width: 100%;
+    height: 25%;
+    border: 1px solid rgb(96,96,96);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.bill-address{
+    margin-bottom: 0px;
+    height: 18%;
+    border:none;
+}
+.card-number,.sub-address{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.sub-address{
+    border:none;
+}
+.card-number .input{
+    width:72%;
+    height: 100%;
+}
+.card-number-image{
+    width: 28%;
+    height: 100%;
+}
+.card-number-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.authentication{
+    display: flex;
+    justify-content: space-between;
+    border:none;
+}
+.text-input{
+    height: 60%;
+}
+.error-message,.holder-name{
+    font-family: Roboto;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 5px;
+    color:rgb(176, 175, 175);
+    margin-bottom: 25px;
+}
+.holder-name{
+    height: 40%;
+    margin-bottom: 0px;
+}
+.text-input input{
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+    border:none;
+    font-family: Roboto;
+    padding-left: 25px;
+}
+input:focus{
+    outline: none;
+}
+.security-code,
+.expiration-month,
+.expiration-year,
+.city,
+.state,
+.zipcode{
+    width: 30%;
+    height: 100%;
+    border: 1px solid rgb(96,96,96);
+    border-radius: 5px;
+}

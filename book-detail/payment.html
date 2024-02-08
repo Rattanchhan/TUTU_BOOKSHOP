@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar-style.css">
+    <link rel="stylesheet" href="../css/index-navbar-hover.css">
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="../css/footer-style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <div class="picture-shop">
+                    <img class="pic" src="../image/logo/Asset.png" alt="">
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="nav-link">
+                    <li class="home">
+                        <a  href="../index.html"><i class="fa-solid fa-house"></i> ទំព័រដើម</a>
+                    </li>
+                    <li class="new-book service">
+                        <a  href="../html/book-page.html"><i class="fa-solid fa-book-open"></i> ប្រភេទសៀវភៅ <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="drop-down">
+                            <li>
+                                <a href="../book-type/motivation.html">Motivation</a>
+                            </li>
+                            <li>
+                                <a href="../book-type/horror.html">Horror</a>
+                            </li>
+                            <li> 
+                                <a href="../book-type/animation.html">Anime</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="discount">
+                        <a  href="../html/book-discount-page.html"><i class="fa-solid fa-tags"></i> បញ្ចុះតម្លៃ</a>
+                    </li>
+                    <li class="about">
+                        <a href="../html/about-page.html"><i class="fa-solid fa-user"></i> អំពីខ្ញុំ</a>
+                    </li>
+                    <li class="contact">
+                        <a  href="../html/contact-page.html"><i class="fa-solid fa-address-card"></i> ទំនាក់ទំនង</a>
+                    </li>
+                    <li class="register">
+                        <a  href="../html/sign-in.html"><i class="fa-solid fa-pen-to-square"></i> ចុះឈ្មោះ</a>
+                    </li>
+                    <div style="visibility: hidden;" class="animation start-animation"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="div-container">
+        <div class="contain-main">
+                <div class="main-top">
+                    <h1>Make a payment</h1>
+                    <div class="payment">
+                        <div class="child-payment-container">
+                            <div class="payment-image">
+                                <img src="../image/logo/Credit-Card-Icons.webp" alt="">
+                            </div>
+                            <p class="type-credit">Pay with credit or debit card</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="main-bottom">
+                    <div class="main-bottom-left">
+                        <div class="main-bottom-left-top">
+                            <div class="cardholder-name">
+                                <p class="holder-name">Cardholder Name</p>
+                                <div class="text-input">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="card-number">
+                                <div class="input">
+                                    <p class="holder-name">Cardholder Number</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="card-number-image">
+                                    <img src="../image/logo/Credit-Card-Icons.webp" alt="">
+                                </div>
+                            </div>
+                            <p class="error-message">No dashed or space requires</p>
+                            <div class="authentication">
+                                <div class="security-code">
+                                    <p class="holder-name">Security Code</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="expiration-month">
+                                    <p class="holder-name">Expiration Month</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="expiration-year">
+                                    <p class="holder-name">Expiration Year</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-bottom-left-bottom">
+                            <div class="bill-address">
+                                <p class="holder-name" style="margin-bottom: -10px;">Bill Address</p>
+                                <pre style="font-size: 18px;">_____________________________________________________</pre>
+                            </div>
+                            <div class="address">
+                                <p class="holder-name">Address</p>
+                                <div class="text-input">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="sub-address">
+                                <div class="city">
+                                    <p class="holder-name">City</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="state">
+                                    <p class="holder-name">State</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="zipcode">
+                                    <p class="holder-name">Zipcode</p>
+                                    <div class="text-input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-bottom-right">
+                        <div class="div-top"></div>
+                        <div class="div-bottom">
+                            <h3>Total</h3>
+                            <p>12000R</p>
+                            <button>Pay</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="footer" style="margin-bottom: -120px;position:absolute;" >
+            <div class="child-footer">
+                <div class="footer-left">
+                    <a href="https://www.instagram.com/sokuntheasen?igsh=MTFpcTU0YmpzdjN3bg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100037817086082&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="footer-right">
+                    <p style="font-size:12px;font-family: Poppins;font-weight:normal;color: rgba(0,0,0,255);">Tutu-BookShop - Copyright &#169; 2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

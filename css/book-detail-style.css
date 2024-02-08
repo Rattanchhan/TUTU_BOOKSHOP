@@ -1,5 +1,5 @@
 .book-container{
-    width:576px;
+    width:650px;
     margin: auto;
     margin-top: 30px;
 }
@@ -18,12 +18,13 @@ h1{
     font-weight: Poppins;
 }
 .container-child1 .sub-child1{
-    width: 32%;
+    width: 185px;
     height: 100%;
 }
 .container-child1 .sub-child2{
-    width: 68%;
+    width: 62%;
     height: 100%;
+    margin-top:-12px;
 }
 .container-child1 .sub-child2 p{
     font-size: 18px;

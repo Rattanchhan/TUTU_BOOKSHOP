@@ -15,7 +15,7 @@
     visibility: hidden;
 }
 .menu .new-book{
-    width:139px;
+    width:175px;
     height:40px;
     transition: 0.2s;
 }
@@ -29,27 +29,27 @@
     transform: rotate(0deg);
 }
 .menu .discount{
-    width:139px;
+    width:128px;
     height:40px;
     transition: 0.2s;
 }
 .menu .about{
-    width:110px;
+    width:100px;
     height: 40px;
     transition: 0.2s;
 }
 .menu .contact{
-    width:129px;
+    width:120px;
     height: 40px;
     transition: 0.2s;
 }
 .menu .register{
-    width:139px;
+    width:128px;
     height:40px;
     transition: 0.2s;
 }
 .animation{
-    width: 100px;
+    width: 110px;
     height: 40px;
     position: absolute;
     background-color:rgb(167, 119, 55);

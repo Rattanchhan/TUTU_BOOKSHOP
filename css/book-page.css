@@ -37,6 +37,7 @@
     display: block;
 }
 .child{
+    height: 92%;
     display: flex;
 }
 .slide .child .image{
