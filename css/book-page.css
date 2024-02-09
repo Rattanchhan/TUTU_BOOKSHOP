@@ -33,7 +33,7 @@
 }
 .slide .child,.child{
     width: 100%;
-    height: 75%;
+    height: 70%;
     display: block;
 }
 .child{
@@ -46,6 +46,9 @@
     margin: auto;
     position: relative;
     overflow: hidden;
+}
+.slide .child .image a img{
+    object-fit: cover;
 }
 .absulote-image{
     width: 35%;
