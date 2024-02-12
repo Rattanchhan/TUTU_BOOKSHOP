@@ -44,6 +44,7 @@ body{
     background-color: rgba(233,211,174,255);
 }
 .menu a{
+    height: 100%;
     font-family:Battambang;
     font-size:15px;
     text-decoration: none;
@@ -52,6 +53,7 @@ body{
     z-index: 1;
     box-sizing: border-box;
     color: white;
+    display: block;
 }
 .menu .home{
     width:110px;
@@ -128,7 +130,6 @@ body{
     list-style: none;
     font-family: Poppins;
     font-size: 15px;
-    margin-top: 20px;
     border-radius: 8px;
 }
 
